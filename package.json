@@ -1,0 +1,22 @@
+{
+  "name": "web-config",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "husky": "^2.3.0",
+    "prettier": "^1.17.1",
+    "pretty-quick": "^1.11.0"
+  }
+}
