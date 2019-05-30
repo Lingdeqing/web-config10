@@ -6,6 +6,7 @@ var Koa = new require("koa"),
 
 var index = require("./routes/index");
 var users = require("./routes/users");
+var hosts = require("./routes/hosts");
 
 // error handler
 onerror(app);
@@ -32,6 +33,7 @@ app.use(require("koa-static")(__dirname + "/public"));
 // routes definition
 app.use(index.middleware());
 app.use(users.middleware());
+app.use(hosts.middleware());
 
 // error-handling
 app.on("error", (err, ctx) => {
