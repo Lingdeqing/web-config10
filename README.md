@@ -1,6 +1,3 @@
-# Usage
+## nginx: todo 编辑 nginx 配置文件的 vscode 插件
 
-```
-npm i -g web-config10
-web-config10
-```
+### hosts: 使用 vscode 插件[Edit Hosts File](https://marketplace.visualstudio.com/items?itemName=contagio.vs-edit-hosts) https://marketplace.visualstudio.com/items?itemName=contagio.vs-edit-hosts
